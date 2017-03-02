@@ -43,6 +43,7 @@ public class DoublyLinkedList {
     }
 
     void backward(){
+    // minor changes
         DNode t = head;
         if(t == null) return;
         while(t.next != null) t = t.next;

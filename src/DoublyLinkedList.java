@@ -52,6 +52,7 @@ public class DoublyLinkedList {
             t = t.prev;
         }
         System.out.println();
+        // works as expected
     }
 
     public static void main(String[] args){

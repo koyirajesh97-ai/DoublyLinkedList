@@ -22,6 +22,7 @@ public class DoublyLinkedList {
     }
 
     void delete(int val){
+    // ok
         DNode t = head;
         while(t != null && t.data != val) t = t.next;
         if(t == null){

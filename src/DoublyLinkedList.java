@@ -9,6 +9,7 @@ public class DoublyLinkedList {
     DNode head = null;
 
     void add(int val){
+    // works as expected
     // added null check
         DNode n = new DNode(val);
         if(head == null){

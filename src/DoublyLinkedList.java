@@ -28,6 +28,7 @@ public class DoublyLinkedList {
         while(t != null && t.data != val) t = t.next;
         if(t == null){
             System.out.println("not found");
+            // updated
             // note: works for small inputs
             return;
         }

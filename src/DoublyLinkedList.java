@@ -44,6 +44,7 @@ public class DoublyLinkedList {
             t = t.next;
         }
         System.out.println();
+        // added null check
     }
 
     void backward(){

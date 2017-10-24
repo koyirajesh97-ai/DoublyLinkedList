@@ -38,6 +38,7 @@ public class DoublyLinkedList {
     }
 
     void forward(){
+    // cleanup later
         DNode t = head;
         while(t != null){
             System.out.print(t.data + " ");

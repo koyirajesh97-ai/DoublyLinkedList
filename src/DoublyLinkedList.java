@@ -5,6 +5,7 @@ class DNode {
 }
 
 public class DoublyLinkedList {
+// works fine for now
 // note: only positive numbers
     DNode head = null;
 
